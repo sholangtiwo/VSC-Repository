@@ -1,0 +1,61 @@
+Microsoft Windows [Version 10.0.19045.5371]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git init
+Initialized empty Git repository in C:/Users/Simi & Fola/Desktop/BrightChamps/Web/Indigo/.git/
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git add .
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git commit -m "first commit"
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git branch -M main
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git remote add origin https://github.com/sholangtiwo/VSC-Repository.git
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.18 KiB | 403.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sholangtiwo/VSC-Repository.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git add testpy.py
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git commit -m "second commit"
+[main 0e00e3a] second commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testpy.py
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 255 bytes | 127.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sholangtiwo/VSC-Repository.git
+   f24b5ac..0e00e3a  main -> main
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git add .
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git commit -m "3rd commit"
+[main 4168af5] 3rd commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 358 bytes | 358.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sholangtiwo/VSC-Repository.git
+   0e00e3a..4168af5  main -> main
+
+C:\Users\Simi & Fola\Desktop\BrightChamps\Web\Indigo>
